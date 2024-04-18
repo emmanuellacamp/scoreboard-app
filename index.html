@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Scoreboard</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div>
+                <h3>HOME</h3>
+                <div class="score-container">
+                    <p id="hscore">0</p>
+                </div>
+                <div class="btn-container">
+                    <button id="hplus-1" onclick="addScore('home', 1)">+1</button>
+                    <button id="hplus-2" onclick="addScore('home', 2)">+2</button>
+                    <button id="hplus-3" onclick="addScore('home', 3)">+3</button>
+                </div>
+            </div>
+            <div>
+                <h3>GUEST</h3>
+                <div class="score-container">
+                    <p id="gscore">0</p>
+                </div>
+                <div class="btn-container">
+                    <button id="gplus-1" onclick="addScore('guest', 1)">+1</button>
+                    <button id="gplus-2" onclick="addScore('guest', 2)">+2</button>
+                    <button id="gplus-3" onclick="addScore('guest', 3)">+3</button>
+                </div>
+            </div>
+        </div>
+        <div class="reset-container">
+            <button class="reset-btn" onclick="resetScores()">Reset</button>  
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
