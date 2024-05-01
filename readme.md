@@ -22,8 +22,8 @@ To use the scoreboard app:
 
 This project consists of three main files:
 - `index.html`: Contains the HTML structure of the scoreboard app.
-- `styles.css`: Contains the CSS styles for the app's layout and design.
-- `script.js`: Contains the JavaScript code for handling score updates and resets.
+- `index.css`: Contains the CSS styles for the app's layout and design.
+- `index.js`: Contains the JavaScript code for handling score updates and resets.
 
 ## Credits
 
